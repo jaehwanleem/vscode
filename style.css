@@ -1,0 +1,74 @@
+ /* seletor {
+    Property: value;
+}  */
+
+
+
+
+body{
+    background-image: url(vscodeimage.jpeg);
+    background-size:cover; /* 바디영역에 꽉차게 설정 */
+    
+}
+h2 > div > p { /* 스페이스바는 h2 안에 있는 p를 꾸미기 위한 관계 */
+    color: red;
+    text-align: center; /* 글자 정렬 */
+    background-color:skyblue;
+    border: 5px solid purple;
+    cursor:pointer;
+}
+p{
+    
+    color: green;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    cursor: not-allowed;
+}
+
+.webtext {
+    border: 5px dashed green;
+
+
+}
+
+.active {
+    border: 10px dashed red;
+}
+
+#div1 {
+    
+    text-align: center;
+    line-height: 60px;
+}
+
+#div2 p {
+    background: white;
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    background: lightcoral;
+    clear: both;
+    text-align: center;
+}
+
+nav {
+    background: teal;
+}
+
+#div1 img {
+    float: right;
+    
+}
