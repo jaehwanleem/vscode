@@ -1,0 +1,190 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style:none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_bg{
+   
+    width:100%;
+    
+    
+    
+}
+
+
+.header{
+    display:flex;
+    width:1600px;
+    height: 86px;
+    margin:auto;
+    
+
+    
+}
+
+
+
+.navigate > li{
+    
+    margin-left: 120px;
+    
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background-color:  rgba(206, 139, 139, 0.5);
+    border-radius: 5px;
+    margin-top:24px;
+    
+}
+
+.searchArea > form > input {
+    border:none;
+    width:250px;
+    height: 40px;
+    background:rgba(0,0,0,0.0);
+    color: #fff;
+    padding-left:10px;
+}
+
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background:yellow;
+   
+
+}
+.navigate{
+    
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width:calc(1280px);
+   
+    
+    
+    
+}
+.navigate > li{
+    
+margin-top:-15px;
+
+}
+
+.navigate > li >a
+{
+    
+    cursor: pointer;
+    
+}
+.top_container {
+    min-width: 1100px;
+    
+    height: 35px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    
+}
+.top_container .right_menu_login_signin ul {
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+}
+
+ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.top_container .container-body {
+    width: 1100px;
+    text-align: left;
+    margin: 0 auto;
+    background: black;
+}
+.logo {
+    
+    
+    width: 209px;
+    height: 80px;
+    
+    
+}
+
+.logo img {
+    
+   
+    
+    border: 0;
+}
+
+
+.top_container .right_menu_login_signin {
+    float: right;
+    
+    margin: -20px;
+    margin-right: 30px;
+    
+}
+.top_container .right_menu_login_signin ul {
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+}
+
+.top_container .right_menu_login_signin ul li {
+    float: left;
+    border-left: 1px solid #e5e5e5;
+}
+
+.top_container .right_menu_login_signin ul li a {
+    display: block;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 37px;
+    position: relative;
+    overflow: hidden;
+    color: #4c4c4c;
+    letter-spacing: -1px;
+    
+}
+
+
+#mainpage .section-database .section-body {
+    padding-top: 200px;
+    
+    text-align: center;
+    
+}
+
+#mainpage .section-database .section-body .list {
+    width: 2000px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+#mainpage{
+    
+   
+    background-image:url("image/dog.jpg");
+    height: 1000px;
+    text-align: center;
+    
+    width:auto;
+}
