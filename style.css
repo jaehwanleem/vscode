@@ -3,11 +3,14 @@
 }  */
 
 
-
+* {
+  
+}
 
 body{
-    background-image: url(vscodeimage.jpeg);
+    
     background-size:cover; /* 바디영역에 꽉차게 설정 */
+    margin: 0px;
     
 }
 h2 > div > p { /* 스페이스바는 h2 안에 있는 p를 꾸미기 위한 관계 */
@@ -19,16 +22,19 @@ h2 > div > p { /* 스페이스바는 h2 안에 있는 p를 꾸미기 위한 관�
 }
 p{
     
-    color: green;
+    color: black;
 }
-
+nav{
+    text-align: left;
+}
 
 li{
     list-style: none;
     display: inline-block;
+    
 }
 a{
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .webtext {
@@ -71,4 +77,52 @@ nav {
 #div1 img {
     float: right;
     
+}
+
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px /* top */ 20px /* right */ 5px /* bottom */ 40px /* left */;
+    margin: 0px 20px 0px 20px;
+    width: 33px;
+    height: 55px;
+}
+
+.section2  p {
+    font-size:20px;
+}
+
+span{
+    font-size:2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition : all 1s;
+
+}
+img:hover{ /* 이미지 위에 커서 올렸을떄 이펙트 */
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex; /* flexbox 중요하다 */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family:fantasy;
+    font-size :3em;
+    border-bottom:2px solid green;
+    width: 400px;
+    text-align: center;
+    border-right:2px solid green;
+    box-shadow: 4px 4px 5px #888888;
+    margin: 0px;
+
 }
